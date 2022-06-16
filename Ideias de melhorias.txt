@@ -1,0 +1,13 @@
+- Criar usuário master no sistema e não permitir a exclusão do mesmo
+
+- Botão de logout:
+	criar botão de logout onde irá abrir a tela de login para outro usuário acessar
+	
+- Submenu Leia-me		
+	criar arquivo txt com notas das atualizações e exibilo 
+	
+- Controle de usuarios
+	definir classe do usuario e permitir acesso
+	
+- Exportar arquivos em excel
+	https://www.youtube.com/watch?v=FLLeDTtFBbQ

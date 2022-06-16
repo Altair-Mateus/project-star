@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.mycompany_project-star_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>models.Chamado</class>
+    <class>models.Tecnico</class>
+    <class>models.Compra</class>
+    <class>models.BaixaProduto</class>
+    <class>models.Prioridade</class>
+    <class>models.Produto</class>
+    <class>models.Cliente</class>
+    <class>models.Fornecedor</class>
+    <class>models.Tipo</class>
+    <class>persistence.DAO</class>
+    <class>models.EmpresaCliente</class>
+    <class>models.SituacaoChamado</class>
+    <class>com.mycompany.project.star.Fornecedor</class>
+    <class>com.mycompany.project.star.Empresacliente</class>
+    <class>com.mycompany.project.star.Tecnico</class>
+    <class>models.Empresacliente</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/star?useTimezone=true&amp;serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="star"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Ger#st!"/>
+    </properties>
+  </persistence-unit>
+</persistence>
